@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        Soma de dois números
+        <h:form>
+            Entre com o Valor a:
+            <h:inputText value="#{jsfSoma.valorA}" /><br/>
+            Entre com o Valor b:
+            <h:inputText value="#{jsfSoma.valorB}" /> <br/>
+            <h:commandButton value="Somar" action="#{jsfSoma.somaNumeros()}" /><br/>
+            Resultado da Soma:
+            <h:outputText value="#{jsfSoma.resultado}" />
+        </h:form>
+    </h:body>
+</html>
