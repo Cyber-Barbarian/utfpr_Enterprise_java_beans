@@ -1,5 +1,5 @@
 br\ejb\EjbLocalLocal.class
-br\resources\JakartaEE10Resource.class
 br\JakartaRestConfiguration.class
-br\jsf\jsfLocal.class
 br\ejb\EjbLocal.class
+br\resources\JakartaEE10Resource.class
+br\jsf\jsfLocal.class
